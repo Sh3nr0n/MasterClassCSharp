@@ -1,4 +1,6 @@
-﻿using System;
+﻿// The controller uses the model to display a view in the layout
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -19,7 +21,9 @@ namespace WebApplication5.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            TMDbClient client = new TMDbClient ("0464ee9cc3ccc27c18a7cbe6802c87c1"); // Create a new TMDB Client to access the API using the API key
+            var movie = client.GetMovieNowPlayingListAsync("fr").Result; // Method from the API to request a list of movie from the online database
+            return View(movie.Results); // return the view
         }
 
     }

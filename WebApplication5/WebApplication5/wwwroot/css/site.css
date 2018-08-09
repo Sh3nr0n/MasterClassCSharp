@@ -1,35 +1,52 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin-top: 5%;
+    background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/abstract-white-gray-in-center-old-black-border-backdrop-a_1024x1024@2x.jpg?v=1527220201");
+    background-attachment: fixed;
 }
-
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Carousel */
-.carousel-caption p {
+.whitetxt {
+    color: aliceblue;
     font-size: 20px;
-    line-height: 1.4;
 }
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+h6 {
+    font-size: 30px;
 }
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+h2 {
+    color: aliceblue;
 }
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+nav, .page-footer {
+    background-color: darkslategrey;
+}
+footer{
+    color: aliceblue;
+}
+.movieOverview {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: calc(50% - 20px)!important;
+    color: aliceblue;
+    background-color: rgba(47, 79, 79, .5);
+    box-shadow: 0 1px 1px black;
+    margin: 10px;    
+}
+.movieoverviewdetail {
+    color: aliceblue;
+    background-color: rgba(47, 79, 79, .5);
+    box-shadow: 0 1px 1px black;
+}
+.rightalign {
+    text-align: right;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card {
+    background-color: rgba(47, 79, 79, .5);
+}
+.poster {
+    box-shadow: 0 3px 3px black;
+}
+.separator {
+    border-bottom: aliceblue solid 1px;
+    padding-bottom: 15px;
 }

@@ -26,7 +26,12 @@
   - Se placer à la racine du projet et ajouter la bibliothèque suivante qui permet d'utiliser une API pour interroger une de données de films (https://github.com/LordMike/TMDbLib)
 
        dotnet add package TMDbLib --version 1.3.0-alpha
+       
+https://www.themoviedb.org/?language=fr
 
  - Aller dans l'outil de débuggage VSCODE (icone insecte) et cliquer sur la flèche verte en face de **DEBOGUER** (sur la configuration .NET)
 
  Le site se lance en local dans le navigateur sur le port 5000.
+
+ Documentation de l'API : https://developers.themoviedb.org/3/getting-started/images
+

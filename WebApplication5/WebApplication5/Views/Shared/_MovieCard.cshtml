@@ -1,0 +1,16 @@
+<!-- Partial view which doesn't render entirerly like a layout, we can use it with the arobase.RenderViewName.parenthesis in our Layout-->
+<!-- This lin is required to get the results from the movie database -->
+@model TMDbLib.Objects.Search.SearchMovie;
+
+<div class = "col-xs-6 movieOverview">
+    <div class = "col-xs-6">
+        <img height="350 px" src="@($"https://image.tmdb.org/t/p/w500/{Model.PosterPath}")"/>
+    </div>
+
+    <div class = "col-xs-6">
+        <span class="title" > @(Model.Title) </span>
+        <p>@(Model.Overview.Length <= 150 ? Model.Overview : Model.Overview.Substring(0, 150) + "...")</p>
+        <a href="@Url.Action("MovieDetail", "HelloWorld", new {id = Model.Id})">Voir le détail</a>
+    </div>
+
+</div>
