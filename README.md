@@ -35,3 +35,9 @@ https://www.themoviedb.org/?language=fr
 
  Documentation de l'API : https://developers.themoviedb.org/3/getting-started/images
 
+ Documentation .NET :
+https://www.asp.net/get-started
+
+Documentation C# :
+https://docs.microsoft.com/fr-fr/dotnet/csharp/programming-guide/
+
