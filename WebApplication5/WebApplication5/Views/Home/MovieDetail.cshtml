@@ -1,0 +1,23 @@
+@using TMDbLib.Objects.General
+@using TMDbLib.Objects.Movies
+@using TMDbLib.Objects.Search
+@model Movies.Models.MovieDetailViewModel
+
+<div class ="row">
+    <div class="col s12">
+        <h2>@(Model.Movie.Title)</h2>
+    </div>
+
+    <div class = "col xs-6">
+        <img class = "poster" src="@($"https://image.tmdb.org/t/p/w500/{Model.Movie.PosterPath}")"/>
+    </div>
+
+    <div class = "col xs-6 whitetext movieoverviewdetail">
+        <h6>Pitch</h6>
+        <p class = "separator">@(Model.Movie.Overview)</p>
+        <div class = "col ">
+            <p>Note : @(Model.Movie.VoteAverage)</p>
+        </div>
+    </div>
+
+</div>

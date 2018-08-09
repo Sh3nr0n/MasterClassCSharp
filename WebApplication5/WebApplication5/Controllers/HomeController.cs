@@ -25,6 +25,14 @@ namespace WebApplication5.Controllers
             var movie = client.GetMovieNowPlayingListAsync("fr").Result; // Method from the API to request a list of movie from the online database
             return View(movie.Results); // return the view
         }
+        public ActionResult MovieDetail(int id){
+            TMDbClient client = new TMDbClient("0464ee9cc3ccc27c18a7cbe6802c87c1");
+            Movie movie = client.GetMovieAsync(id, "fr").Result;
+            return View(new MovieDetailViewModel
+            {
+                Movie = movie,
+            });
+        }
 
     }
 }
