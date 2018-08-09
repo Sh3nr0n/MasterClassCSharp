@@ -8,3 +8,4 @@
 /home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.AssemblyInfo.cs
 /home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.dll
 /home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.pdb
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.csprojResolveAssemblyReference.cache

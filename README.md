@@ -18,13 +18,14 @@
        dotnet new console
        dotnet pack
 
- - Ajouter la bibliothèque suivante qui permet d'utiliser une API vers une base de données de films (https://github.com/LordMike/TMDbLib)
-
-       dotnet add package TMDbLib --version 1.3.0-alpha
 
  - Installer le plugin C# dans VSCODE depuis la barre de recherche de plugins
 
  - Dézipper le projet WebApplication5.zip
+
+  - Se placer à la racine du projet et ajouter la bibliothèque suivante qui permet d'utiliser une API pour interroger une de données de films (https://github.com/LordMike/TMDbLib)
+
+       dotnet add package TMDbLib --version 1.3.0-alpha
 
  - Aller dans l'outil de débuggage VSCODE (icone insecte) et cliquer sur la flèche verte en face de **DEBOGUER** (sur la configuration .NET)
 
